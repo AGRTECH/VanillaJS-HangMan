@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Hangman JS</title>
+</head>
+<body>
+  <div class="hangman-img-container">
+    <div class="hanger">
+      <img src="img/hanger.png" alt="">
+      <button class='play-btn'><p>Click Anywhere</p><p>To Start Game!</p></button>
+    </div>
+    <div class="hangman-man-container">
+      <img class='head hide-head' src="img/head.png" alt="">
+      <img class="arms hide-arms" src="img/arms.png" alt="">
+      <img class="legs hide-legs" src="img/legs.png" alt="">
+    </div>
+  </div>
+  <div class="category">
+    <p class='chosen-category'></p>
+  </div>
+  <div class="letters-container">
+    <p class='letter space'>space</p>
+    <p class='letter a'>a</p>
+    <p class='letter b'>b</p>
+    <p class='letter c'>c</p>
+    <p class='letter d'>d</p>
+    <p class='letter e'>e</p>
+    <p class='letter f'>f</p>
+    <p class='letter g'>g</p>
+    <p class='letter h'>h</p>
+    <p class='letter i'>i</p>
+    <p class='letter j'>j</p>
+    <p class='letter k'>k</p>
+    <p class='letter l'>l</p>
+    <p class='letter m'>m</p>
+    <p class='letter n'>n</p>
+    <p class='letter o'>o</p>
+    <p class='letter p'>p</p>
+    <p class='letter q'>q</p>
+    <p class='letter r'>r</p>
+    <p class='letter s'>s</p>
+    <p class='letter t'>t</p>
+    <p class='letter u'>u</p>
+    <p class='letter v'>v</p>
+    <p class='letter w'>w</p>
+    <p class='letter x'>x</p>
+    <p class='letter y'>y</p>
+    <p class='letter z'>z</p>
+  </div>
+  <div class="placeholders">
+    <div class='letters-holder'></div>
+    <div class="placeholderplaceholder"></div>
+    <h1 class='whats-the-word'>testing</h1>
+    <h1 class='real-word'></h1>
+  </div>
+  <p class='lives'>Lives Remaining: 3</p>
+  <script src="app.js"></script>
+</body>
+</html>
